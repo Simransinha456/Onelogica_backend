@@ -1,4 +1,4 @@
-const { postCourseCategory, getAllCourseCategories, getCourseCategory, deleteCourseCategory } = require('../controllers/CourseCategoryController');
+const { postCourseCategory, getAllCourseCategories, getCourseCategory, deleteCourseCategory } = require('../controllers/courseCategoryController');
 const { authMiddleware, isTeacher } = require('../middlewares/authMiddleware');
 
 const courseCategoryRouter = require('express').Router();
